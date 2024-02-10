@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: aliceblue;
 }
 
 body {
@@ -13,7 +14,24 @@ body {
     background: black;
 }
 
-.view3d{
+.view3d {
     height: 100%;
     width: 100%;
+}
+
+input[type="color"] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    cursor: pointer;
+    height: 10rem;
+    width: 10rem;
+    margin: 25px;
+    border: 0;
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border: 0;
+    border-radius: 15px;
 }
